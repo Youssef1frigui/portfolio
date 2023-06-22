@@ -1,0 +1,358 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+html *,
+body,
+body * {
+  cursor:crosshair;
+  color: white;
+}
+*::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, rgba(120,120,121,1) 0%, rgba(136,136,136,1) 100%);
+    border-radius: 10px;}
+.body{
+    position: absolute;
+    background-image:url(../assets/16z_42\ [Converted3].jpg);
+    max-width: 100%;
+    max-height: 100%;
+}
+div{
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background:linear-gradient(to right,#1e0a4f,#212e74);
+}
+.btn-outline-success{
+    background-color:rgb(22, 98, 187);
+    color: rgba(255, 255, 255, 0.752);
+}
+.btn-outline-success:hover{
+    color:none;
+}
+.form-inline{
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+#title{
+    text-decoration: underline;
+    font-size: 50px;
+    gap:55px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#about-me{
+    text-decoration: underline;    
+    color:rgb(219, 88, 88);
+}
+li{
+    color: blue;
+}
+#titre{
+    display: flex;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    padding-top: 60px;
+}
+#web-dev{
+    background: none;
+    margin-left: 400px;
+    margin-top: 40px;
+    max-width: 50%;
+    margin-right: 25px;
+}
+.nav-item{
+    margin-right: 330px;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: medium;
+    list-style:none;
+    border: 2px;
+    border-color: white;
+    border-style:groove;
+    border-radius: 7px;
+    
+}
+.semi-title{
+    margin-top: 70px;
+    margin-left: 550px;
+    text-decoration: underline;
+    color: blue;
+    font-size: 60px;
+    text-shadow: 7px;
+}
+#hello{
+    font-size: 45px;
+    font-weight: 450;
+    margin-left: 60px;
+}
+#introduction{
+    margin-left: 85px;
+    max-width: 60%;
+    font-size: large;
+}
+#hi{
+    color: rgb(248, 115, 137);
+    text-decoration-color:  rgb(101, 100, 100);
+    font-style: italic;
+}
+.intro{
+    display: flex;
+    gap: 90px;
+    font-style:italic;
+}
+.small-title{
+    color: rgb(219, 88, 88);
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+}
+.progress{
+    margin-top: 30px;
+    margin-bottom: 00px;
+}
+.skills-description{
+    font-size: 25px;
+    max-width: 100%;
+    font-weight: 450px;
+    margin-left: 40px;
+}
+.html{
+    font-size: 20px;
+    margin-left: 25px;
+}
+#description{
+    max-width: 50%;
+    font-size: 20px;
+    margin-top: 50px;
+}
+#account{
+    list-style: none;
+    margin-top: 40px; 
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: rgb(233, 68, 68);
+}
+button:hover{
+    background-color: white;
+}
+a:active{
+    color: rgb(87, 12, 156);
+}
+li:hover{
+    color:blue;
+}
+image{
+    box-shadow: 30px;
+}
+.skills{
+    max-width: 50%;
+    margin-left: 30px;
+    padding-top: 40px;
+    gap: 90px;
+}
+iframe{
+    border: 2px;
+    border-radius: 9px;
+    box-shadow: 5px;
+    margin-left: 20px;
+}
+#question{
+    max-width: 100%;
+    margin-left:70px;
+    margin-top: 50px;
+    font-size: 30px; 
+    text-decoration:solid;
+    text-decoration: underline;
+    margin-bottom: 60px;
+}
+#videos-youtube{
+    font-size: 30px;
+    margin-left: 30px;
+    color: rgb(219, 88, 88);
+};
+
+.boxes {
+    display: block;
+    margin-top: 20px;
+    top: 5%;
+    width: 32vmax;
+}
+#docplanner{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.card{
+    border: 4px solid black;
+    border-radius: 7px;
+}
+.project__title{
+    margin-left: 105px;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+.project__txt{
+    margin-top: 13px;
+    font-size: medium;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.project__img{
+    margin-left: 40px;
+    box-shadow: 6px;
+    border: 2px;
+    border-radius: 8px;
+}
+#animation{
+    display: flex;
+}
+.typesofvideos{
+    flex-wrap: wrap;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.btn-secondary{
+    background-color:black;
+    height: 50px;
+}
+.btn-secondary:hover{
+    background-color:white;
+}
+.btn-primary:hover{
+    background-color: white;
+}
+.aos-init{
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border: 2px;
+    border-color: black;
+    border-radius: 7px;
+}
+.btn-primary{
+    height: 50px;
+}
+#contact-button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    margin-top: 00px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 300px;
+}
+#account{
+    color: rgb(233, 68, 68);
+};   
+.skills-description{
+    margin-top: 400px;
+}
+#videosofyoutube{
+    margin-top: 150px;
+}
+#butn1{
+    color: white;
+}
+.card-img-top{
+    box-shadow: 40px;
+    border-radius: 7px;
+    margin-top: 1px;
+}
+#btn-github{
+    margin-left: 120px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card-text{
+    margin-left: 10px;
+}
+.card-title{
+    margin-left: 50px;
+}
+.card:hover{
+    background-color:rgb(233, 68, 68) ;
+}
+.contact-form{
+    border: 7px solid rgb(233, 68, 68) ;
+    width: 300px;
+    margin-bottom: 10;
+    margin-top: 20px;
+}
+#name{
+    width: 100px;
+}
+#work{
+    margin-top: 200px;
+}
+.videos{
+    display: flex;
+    gap: 0;
+
+}
+.input-box{
+    width: 300px;
+    color: black;
+}
+#send-a-message{
+    margin-left: 60px;
+    margin-bottom: 25px;
+    font-size: 45px;
+}
+#send{
+    margin-left: 90px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    width: 100px;
+}
+#contacter{
+    margin-top: 90px;
+    margin-bottom: 8px;
+}
+#name1{
+    width: 96%;
+    height: 35px;
+}
+#email{
+    width: 96%;
+    height: 45px;
+}
+#type-message{
+    width: 96%;
+    height: 65px;
+}
+#courses{
+    display: flex;
+    gap: 150px;
+    font-size: 19px;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.videos1{
+    margin-top: 80px;
+}
+#js-paragraph{
+    margin-left: 25px;
+}
+#my-work{
+    margin-top: 0px;
+    color: rgb(219, 88, 88);
+    font-size: 50px;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+}

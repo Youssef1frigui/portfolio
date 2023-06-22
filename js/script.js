@@ -13,3 +13,10 @@ function revealItems() {
     }
 }
 
+var sendButton = document.getElementById("send");
+
+// Add a click event listener to the submit button
+sendButton.addEventListener("click", function() {
+  // Show an alert when the button is clicked
+  alert("Thank you for your message");
+});
